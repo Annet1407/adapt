@@ -1,0 +1,144 @@
+
+
+
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 1140px
+    margin: 0 auto
+    background-color: red
+
+    &__btn
+        position: relative
+        right: 100px 
+
+
+    img 
+        width: 40px
+        height: 40px
+        position: relative
+        right: 70px
+       
+
+.nav
+    display: flex
+
+    a
+        text-decoration: none
+        color: black 
+    li
+        padding-right: 64px
+        position: relative
+        left: 100px
+    
+.section
+    width: 1140px
+    height: 600px
+  
+    margin: 0 auto
+    background-color: lightgreen
+
+    &__all
+        position: relative
+        bottom: 400px
+        color: white
+    
+    img
+        width: 1000px
+        height: 550px 
+        position: relative
+        top: 10px
+        left: 55px
+
+    h1
+        font-size: 70px
+        font-weight: 600
+        text-align: center
+        
+
+    p
+        font-size: 30px
+        text-align: center
+
+
+
+@media (max-width: 1199px)
+    .header
+        width: 960px
+    .section
+        width: 960px
+        &__all
+        img
+            width: 850px
+            height: 550px
+            padding-top: 10px 
+        h1
+        p
+
+@media (max-width: 991px)
+    .header
+        width: 720px
+    .section
+        width: 720px
+        img
+            width: 600px
+            height: 400px
+            padding-top: 50px
+        h1
+            font-size: 30px
+            padding-top: 50px
+
+        p
+            font-size: 20px
+            padding-top: 50px
+
+@media (max-width: 767px)
+    .header
+        width: 540px
+    .section
+        width: 540px
+        img
+            width: 450px
+            height: 300px
+            padding-top: 10px
+        h1
+            font-size: 25px
+            padding-top: 150px
+
+        p
+            font-size: 15px
+            padding-top: 50px
+
+@media (max-width: 575px)
+    .header
+        width: 100%
+    .section
+        width: 100%
+        img
+            width: 350px
+            height: 250px
+            position: relative
+            top: 250px 
+            left: 30px 
+        h1
+            font-size: 25px
+            padding-top: 150px
+            color: black
+
+        p
+            font-size: 15px
+            padding-top: 50px
+            color: black
+
+
+
+    
+
+
+
+
+
+
+
+
